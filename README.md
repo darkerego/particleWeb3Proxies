@@ -12,8 +12,21 @@ modify most of my code to use particle as my web3 RPC, but sometimes it can be. 
 I decided to just write a script that creates a proxy listening 
 on my local host for every chain that particle supports. This way 
 I only need to update my RPC endpoint for my HTTPProvider and everything 
-just kind of ... works.
+just kind of works.
 </p>
+
+### What's Next
+
+<p>
+It occured to me that I wrote this like an idiot. I think I will refractor it so that there is only one port listening on the localhost, and then you can just specify a path. Like:
+
+- http://127.0.0.1:8545/ethereum
+- http://127.0.0.1:8545/arbitrum
+
+  Etc. Then just proxy the request to appropiate endpoint. 
+
+</p>
+
 
 ### Setup
 <p>
@@ -32,3 +45,7 @@ and copy
 <p>
 Cause I love tips: 0xCe8406fCCD474637242a1112D33F6749c5e4772F
 </p>
+
+### Invite Code for Particle Drop:
+
+(8BHMPJ)[https://pioneer.particle.network?inviteCode=8BHMPJ]
