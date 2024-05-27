@@ -1,6 +1,14 @@
 # particleProxies
 
-### Note: this code is totally unecessary, I will publish a better solution shortly. 
+### Note: this code is totally unecessary.
+
+<p>
+
+Try this instead: 
+
+[https://gist.github.com/darkerego/7180cb6808a2bb30dfa5d9357e1afdc9](particle_ws_with_trio)
+
+</p>
 
 
 
